@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView.m \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView_Compat.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTComposition.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/MacCompatability/LOTPlatformCompat.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTModels.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTKeyframe.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTBezierData.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTLayer.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTMask.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTShapeCircle.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTShapeFill.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTShapeGroup.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTShapePath.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTShapeRectangle.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTShapeStroke.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTShapeTransform.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTShapeTrimPath.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTLayerGroup.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTAsset.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTShapeGradientFill.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Extensions/LOTHelpers.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Extensions/UIColor+Expanded.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Extensions/CGGeometry+LOTAdditions.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Extensions/LOTBezierPath.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView_Internal.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationCache.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTCompositionContainer.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTLayerContainer.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/node_modules/lottie-ios/lottie-ios/Classes/Models/LOTAssetGroup.h
