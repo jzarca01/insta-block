@@ -1,6 +1,11 @@
 {
-    "web3Url" : "http://5645f4ca.ngrok.io",
+    "web3Url" : "http://d2438cb4.ngrok.io",
     "localAddress" : "0x627306090abaB3A6e1400e9345bC60c78a8BEf57",
     "imgurClientId" : "cc86a8de0e7c459",
-    "loadingJSON": "../common/animation.json"
+    "loadingJSON": "../common/animation.json",
+    "adobe": {
+        "clientId": "3d00135600b441bd8682124ec4c5587d",
+        "clientSecret": "a1bbe9f1-412e-4a8c-9f24-b74bc44a4224",
+        "clientRedirectUrl": "ams+d6466bedd685a40bdf2faa818e97ffbcb4f996d7://adobeid/3d00135600b441bd8682124ec4c5587d"
+    }
 }

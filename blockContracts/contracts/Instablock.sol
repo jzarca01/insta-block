@@ -1,66 +1,56 @@
 pragma solidity ^0.4.0;
 
-
-contract Console {
-    event LogUint(string, uint);
-    function log(string s , uint x) {
-        LogUint(s, x);
-    }
-    
-    event LogInt(string, int);
-    function log(string s , int x) {
-        LogInt(s, x);
-    }
-    
-    event LogBytes(string, bytes);
-    function log(string s , bytes x) {
-        LogBytes(s, x);
-    }
-    
-    event LogBytes32(string, bytes32);
-    function log(string s , bytes32 x) {
-        LogBytes32(s, x);
-    }
-
-    event LogAddress(string, address);
-    function log(string s , address x) {
-        LogAddress(s, x);
-    }
-
-    event LogBool(string, bool);
-    function log(string s , bool x) {
-        LogBool(s, x);
-    }
-}
-
-contract Instablock is Console {
+contract Instablock{
     Item[] public items;
 
     struct Item {
+        bool isPhoto;
+        bool isMeta;
         bytes32 photo;
-        bool isLink;
+        uint256 date;
     }
 
-    function addItem(bytes32 _photo) public returns(bool success) {
+    function Time_call() returns (uint256){
+        return now;
+    }
+
+    function addPhoto(bytes32 _photo) public returns(bool success) {
         Item memory item;
         item.photo = _photo;
-        item.isLink = true;
+        item.isPhoto = true;
+        item.isMeta = false;
+        item.date = Time_call();
 
         items.push(item);
         return true;
     }
 
-    function getItems() public constant returns(bytes32[], bool[]) {
+    function addMeta(bytes32 _photo) public returns(bool success) {
+        Item memory item;
+        item.photo = _photo;
+        item.isPhoto = true;
+        item.isMeta = false;
+        item.date = Time_call();
+
+        items.push(item);
+        return true;
+    }
+
+    function getItems() public constant returns(bytes32[], uint256[], bool[], bool[]) {
         uint length = items.length;
 
         bytes32[] memory photos = new bytes32[](length);
-        bool[] memory isLinks = new bool[](length);
+        uint256[] memory dates = new uint256[](length);
+        bool[] memory isPhotos = new bool[](length);
+        bool[] memory isMetas = new bool[](length);
 
         for (uint i = 0; i < length; i++) {
             photos[i] = items[i].photo;
-            isLinks[i] = items[i].isLink;
+            dates[i] = items[i].date;
+            isPhotos[i] = items[i].isPhoto;
+            isMetas[i] = items[i].isMeta;
         }
 
-        return (photos, isLinks);
+        return (photos, dates, isPhotos, isMetas);
     }
 }

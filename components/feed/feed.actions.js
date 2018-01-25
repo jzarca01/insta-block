@@ -6,22 +6,21 @@ import Instablock from '../../blockContracts/build/contracts/Instablock.json';
 import { FETCH_DATA_REQUEST, FETCH_DATA_SUCCESS, FETCH_DATA_ERROR } from './feed.action-names';
 
 export function getInstance(showLoading = true) {
-    return dispatch => {
+    return function (dispatch) {
         selectContractInstance(Instablock)
         .then(instance => {
             dispatch({
                 type: FETCH_DATA_REQUEST,
                 payload: {
-                    isLoading: showLoading,
-                    instance: instance
+                    isLoading: showLoading
                 }
-            });
-            return getItems(instance, dispatch);
+            })
+            getItems(instance, dispatch);
         })
         .catch(err => {
             console.log("err instance", err);
             dispatch({
-                type: FETCH_DATA_ERROR
+                type: LOAD_INSTANCE_ERROR
             })
         });
     }
@@ -31,7 +30,7 @@ export function getItems(instance, dispatch) {
     instance.getItems()
     .then(itemsResp => {
         const items = mapReponseToJSON(
-            itemsResp, ['photo'], 'arrayOfObject'
+            itemsResp, ['photo', 'date'], 'arrayOfObject'
         );
         dispatch({
             type: FETCH_DATA_SUCCESS,

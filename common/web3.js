@@ -10,12 +10,12 @@ const web3 = new Web3(provider);
 export default web3;
 
 export const selectContractInstance = (contractBuild) => {
-  return new Promise(res => {
+  return new Promise(resolve => {
     const myContract = contract(contractBuild);
     myContract.setProvider(provider);
     myContract
       .deployed()
-      .then(instance => res(instance));
+      .then(instance => resolve(instance));
   })
 }
 

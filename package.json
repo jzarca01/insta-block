@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "postinstall": "rn-nodeify --install fs,dgram,process,path,console --hack",
+    "postinstall": "rn-nodeify --install fs,dgram,process,path,console --hack && remotedev-debugger --hostname 172.20.10.9 --port 8081 --injectserver",
     "test": "jest"
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "react-native-http": "github:tradle/react-native-http#834492d",
     "react-native-image-resizer": "^1.0.0",
     "react-native-image-to-base64": "^0.1.0",
+    "react-native-image-tools": "git+https://github.com/npomfret/react-native-image-tools.git",
     "react-native-launchimages": "^1.0.0",
     "react-native-level-fs": "^3.0.0",
     "react-native-os": "^1.1.0",
@@ -41,11 +42,13 @@
     "react-native-randombytes": "^2.2.0",
     "react-native-swiper": "^1.5.13",
     "react-native-tcp": "^2.0.4",
+    "react-native-timeago": "^0.4.0",
     "react-native-udp": "^1.2.9",
     "react-native-ui-kitten": "^3.0.0",
     "react-native-vector-icons": "^4.5.0",
     "react-redux": "^5.0.6",
     "readable-stream": "^1.0.33",
+    "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.2.0",
     "stream-browserify": "^1.0.0",
     "string_decoder": "^0.10.31",
@@ -65,6 +68,7 @@
     "jest": "20.0.4",
     "react-test-renderer": "16.0.0-alpha.12",
     "remote-redux-devtools": "^0.5.12",
+    "remotedev-rn-debugger": "^0.8.3",
     "rn-nodeify": "github:mvayngrib/rn-nodeify"
   },
   "jest": {

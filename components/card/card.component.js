@@ -11,6 +11,8 @@ import {
     RkTheme
 } from 'react-native-ui-kitten';
 
+import TimeAgo from 'react-native-timeago';
+
 export default class CardComponent extends Component {
     constructor(props) {
         super(props);
@@ -21,17 +23,13 @@ export default class CardComponent extends Component {
     <RkCard rkType='story'>
         <Image rkCardImg source={{uri: this.props.photo}}/>
         <View rkCardHeader>
-            <RkText rkType='header'>Once upon a time</RkText>
+            <TimeAgo time={this.props.date} />
         </View>
         <View rkCardContent>
             <RkText style={{textAlign:'center'}}>
                 One morning, when Gregor Samsa woke from happy dreams,
                 he found himself transformed in ...
             </RkText>
-        </View>
-        <View rkCardFooter>
-            <RkButton rkType='small outline'>Learn More</RkButton>
-            <RkButton rkType='small'>Read later</RkButton>
         </View>
     </RkCard>
     );

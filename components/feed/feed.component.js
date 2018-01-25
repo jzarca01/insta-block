@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import {
   StyleSheet,
   Text,
@@ -18,6 +18,14 @@ import LoadingComponent from '../loading/loading.component';
 
 export default class FeedComponent extends Component {
 
+  static PropTypes = {
+    instance: PropTypes.object.isRequired,
+    blockNumber: PropTypes.number.isRequired,
+    feedInfo: PropTypes.array.isRequired,
+    isLoading: PropTypes.bool.isRequired,
+    error: PropTypes.bool.isRequired
+  }
+
   constructor(props) {
     super(props);
 
@@ -30,6 +38,10 @@ export default class FeedComponent extends Component {
 
   componentDidMount() {
     this.props.getInstance();
+  }
+
+  shouldComponentUpdate() {
+    return true;
   }
 
   render () {

@@ -13,5 +13,10 @@ dependencies: \
   /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/Lottie/LOTAnimationView.h \
   /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/Lottie/LOTAnimationView_Compat.h \
   /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/Lottie/LOTComposition.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/Lottie/LOTKeypath.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/Lottie/LOTValueDelegate.h \
   /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/Lottie/LOTAnimationCache.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/Lottie/LOTBlockCallback.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/Lottie/LOTInterpolatorCallback.h \
+  /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/Lottie/LOTValueCallback.h \
   /Users/jeremiezarca/Projets/react-native-web3-example/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h
